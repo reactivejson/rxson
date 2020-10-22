@@ -1,5 +1,9 @@
-# RxSON
-Reactive JSON: Reactive approach to JSON.
+RxSON
+=====================
+
+**Reactive JSON: Java Reactive approach to JSON.**
+
+![](https://img.shields.io/github/license/bouhanm1/MapAppNokia.svg)
 
  RxSON speeds up you code by providing reactive objects before the response complete.
  
@@ -22,6 +26,17 @@ from the response as soon as they arrive, and rendering you code faster.
    * No need to deserialize entire json into memory.
     
 - [JsonPath](https://github.com/json-path/JsonPath) to selectively extract desired json data 
+
+### Getting started
+RxSON is available at the Central Maven Repository.
+
+```xml
+  <dependency>
+      <groupId>com.github.rxson</groupId>
+      <artifactId>rxson</artifactId>
+      <version>1.0.0</version>
+  </dependency>
+```
 
 ### Simple to use
 Given the [JSON](https://think.cs.vt.edu/corgis/datasets/json/airlines/airlines.json)
@@ -110,7 +125,7 @@ public class JsonNodeModel {
        .toList().blockingGet();
 ```
 
-More examples are available in tests.
+More [examples](https://github.com/rxson/rxson/tree/rxson/src/test/java/io/rxson/examples) are available in tests.
 
 ### Useful helpers
 [JsonPath helper](http://jsonpath.herokuapp.com/?path=$.store.book[*].author)
