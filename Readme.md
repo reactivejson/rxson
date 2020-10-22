@@ -31,8 +31,7 @@ Given the [JSON](https://think.cs.vt.edu/corgis/datasets/json/airlines/airlines.
     "Airport": {
       "Code": "LA",
       "Name": "LA: LA International"
-    },
-    //Other objects
+    }
   },
   {
     "Airport": {
@@ -113,9 +112,17 @@ public class JsonNodeModel {
 
 More examples are available in tests.
 
-###Useful helpers
+### Useful helpers
 [JsonPath helper](http://jsonpath.herokuapp.com/?path=$.store.book[*].author)
 
 [Http Client](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
 
  **Prerequisites:** [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+ 
+ ## License
+ 
+ Apache 2.0, see [LICENSE](LICENSE).
+ 
+ ## Support
+ 
+ If you need help, please reach out to me: [mohamed.bou_hanane@nokia.com](mohamed.bou_hanane@nokia.com)
