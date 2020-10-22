@@ -23,3 +23,5 @@ out/
 *.war
 *.ear
 *.db
+
+pom.xml.versionsBackup
