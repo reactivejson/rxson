@@ -1,18 +1,21 @@
 RxSON
 =====================
+**[Reactive](http://www.reactive-streams.org/) HTTP Client for Java and Android.**
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson)
+[![Javadoc](https://www.javadoc.io/badge/com.github.rxson/rxson.svg)](http://www.javadoc.io/doc/com.github.rxson/rxson)
+![](https://img.shields.io/github/license/rxson/rxson.svg)
+[![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.github.rxson/rxson.svg)](https://oss.sonatype.org/content/repositories/snapshots/com/github/rxson/rxson/)
 
 **Reactive JSON: Java Reactive approach to JSON.**
 
-![](https://img.shields.io/github/license/bouhanm1/MapAppNokia.svg)
-
  RxSON speeds up you code by providing reactive objects before the response complete.
- 
  This library provides an Asynchronous Reactive REST Client to stream any REST resource.
- RxSON makes it easy for the application to use JSON streamed chunks from the response as soon as they arrive, and rendering you code fastr.
+ RxSON makes it easy for the application to use JSON streamed chunks from the response as soon as they arrive, and rendering you code faster.
 
  RxSON treats the HTTP response as a series of small, useful chunks and map them to Java Objects
  
-## Why RxSON
+**Why RxSON**
 
 - Fast:
 makes it easy for the application to use JSON streamed chunks
@@ -30,6 +33,7 @@ from the response as soon as they arrive, and rendering you code faster.
 ### Getting started
 RxSON is available at the Central Maven Repository.
 
+Maven
 ```xml
   <dependency>
       <groupId>com.github.rxson</groupId>
@@ -37,7 +41,10 @@ RxSON is available at the Central Maven Repository.
       <version>1.0.0</version>
   </dependency>
 ```
-
+Gradle
+```
+implementation 'com.github.rxson:rxson:1.0.0'
+```
 ### Simple to use
 Given the [JSON](https://think.cs.vt.edu/corgis/datasets/json/airlines/airlines.json)
 ```json
