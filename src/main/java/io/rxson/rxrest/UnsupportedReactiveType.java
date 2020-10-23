@@ -3,13 +3,25 @@ package io.rxson.rxrest;
 /**
  * @author Mohamed Aly Bou Hanane
  * ©2020
+ *
+ * An Exception to thro if no Reactive publisher provided.
  */
 public class UnsupportedReactiveType extends RuntimeException {
-    public UnsupportedReactiveType(String errorMessage, Throwable err) {
-        super(errorMessage, err);
+
+    /**
+     *
+     * @param msg The error message
+     * @param err The throwable error
+     */
+    public UnsupportedReactiveType(String msg, Throwable err) {
+        super(msg, err);
     }
 
-    public UnsupportedReactiveType(String errorMessage) {
-        super(errorMessage);
+    /**
+     *
+     * @param msg The error message
+     */
+    public UnsupportedReactiveType(String msg) {
+        super(msg);
     }
 }
