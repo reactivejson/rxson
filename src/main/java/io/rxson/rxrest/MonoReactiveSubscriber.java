@@ -23,6 +23,12 @@ final public class MonoReactiveSubscriber<T> extends FlowSubscriber {
     private final FlowablePath<T> streamInstance;
     private final Streamable<T> streamable;
 
+    /**
+     *
+     * @param clazz Target class
+     * @param surfer the JsonSurfer provider (e.g., JacksonParser.INSTANCE)
+     * @param jsonPath json path expression (e.g., $[*].Airport)
+     */
     public MonoReactiveSubscriber(final Class<T> clazz, final JsonSurfer surfer, final String jsonPath) {
         super(surfer);
         this.clazz = clazz;
@@ -33,6 +39,10 @@ final public class MonoReactiveSubscriber<T> extends FlowSubscriber {
         this.nonBlockingParser = surfer.createNonBlockingParser(bind(streamable, clazz, surfer, subscription));
     }
 
+    /**
+     * Get the instance of Target type
+     * @return FlowablePath of target type
+     */
     public FlowablePath<T> getStreamInstance() {
         return streamInstance;
     }

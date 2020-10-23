@@ -20,6 +20,11 @@ final public class ReactiveSubscriber<T> extends FlowSubscriber {
     private final T streamInstance;
     private final Collection<Streamable> streamablePaths;
 
+    /**
+     *
+     * @param clazz Target class
+     * @param surfer the JsonSurfer provider (e.g., JacksonParser.INSTANCE)
+     */
     public ReactiveSubscriber(final Class<T> clazz, final JsonSurfer surfer) {
         super(surfer);
         streamablePaths = RxPathUtils.mapFields(clazz);
@@ -29,6 +34,10 @@ final public class ReactiveSubscriber<T> extends FlowSubscriber {
         this.nonBlockingParser = surfer.createNonBlockingParser(bind(getRxPaths(), surfer, subscription));
     }
 
+    /**
+     * Get the model instance with Flowable fields
+     * @return T the subscribed item type
+     */
     public T getStreamInstance() {
         return streamInstance;
     }

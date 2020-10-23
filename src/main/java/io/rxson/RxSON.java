@@ -25,12 +25,11 @@ import java.util.Optional;
  *
  * <p> An {@code RxSON} can be used to send {@linkplain HttpRequest
  * requests} and retrieve their response as a reactive event-driven, and asynchronous
- * by using observable sequences.
+ * by using observable sequences. It is useful to read lage jason payload without running out og Memory.
+ *
  * <p>
- * It is useful to read lage jason payload without running out og Memory.
- * <p>
- * An {@link HttpClient} is created through a {@link RxSON.Builder().client(HttpClient) builder}.
- * <p> The {@link ReactiveSubscriber} determines how to handle the data chunks received through
+ * An {@link HttpClient} is created through a {@code RxSON.Builder().client(HttpClient) builder}.
+ * The {@link ReactiveSubscriber} determines how to handle the data chunks received through
  * stream and publish them to subscribers as java objects after mapping .
  *
  * <p><b>Simple Example</b>
@@ -47,9 +46,10 @@ import java.util.Optional;
  *             .toList()
  *             .blockingGet();
  *     }
- * <p><b>Detailed Example</b>
+ *     </pre>
  *
- * <p><b>Create a class Model</b>
+ * <p><b>Detailed Example</b>
+ * <b>Create a class Model</b>
  * <pre>{@code public class Airline {
  *     @Reactive(path = "$[*].Airport")
  *     private Flowable<JsonNode> result;
@@ -61,6 +61,7 @@ import java.util.Optional;
  *     }
  * }
  * }
+ * </pre>
  *
  * <pre>{@code    RxSON rxrest = new RxSON.Builder().build();
  * HttpRequest req = HttpRequest.newBuilder(URI.create("my.service.com/airlines")).GET().build();
@@ -135,7 +136,7 @@ public final class RxSON {
      * @param req      HttpRequest to send asynchronously
      * @param jsonPath The json path to subscribe for
      * @param <T>      A flowable response of clazz
-     * @return Flowable<T> a flowable publisher of T
+     * @return Flowable a flowable publisher of target type
      */
     public <T> Flowable<T> create(final Class<T> clazz, final HttpRequest req, final String jsonPath) {
         final var subscriber = new MonoReactiveSubscriber<>(clazz, surfer, jsonPath);
@@ -155,7 +156,7 @@ public final class RxSON {
      * @param clazz Target class model that extends {@link CompletableStream}
      * @param req   HttpRequest to send asynchronously
      * @param <T>   The generic type of the class
-     * @return CompletableStream<T> which allows access to the response as {@link CompletableStream#getAsyncResponse()}
+     * @return CompletableStream of target type which allows access to the response as {@link CompletableStream#getAsyncResponse()}
      * <p><b>Example Example</b>
      * {@code getAsyncResponse()
      * .whenComplete((r, t) -> System.out.println("--- Status code " + r.statusCode()))}
