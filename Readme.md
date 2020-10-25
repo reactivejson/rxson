@@ -137,7 +137,7 @@ RxSON is available at the Central Maven Repository with drivers for
 ##### Reactor project
 - Maven 
     ```xml
-    <!--Rxjava-->
+    <!--Reactor-->
       <dependency>
           <groupId>com.github.rxson</groupId>
           <artifactId>rxson-reactor</artifactId>
