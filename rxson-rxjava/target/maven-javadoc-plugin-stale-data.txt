@@ -1,0 +1,24 @@
+cmd.exe
+/X
+/C
+"C:\Users\bouhanan\Documents\jdk-15\bin\javadoc.exe @options @packages"
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\allclasses-index.html = 1603641347178
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\allpackages-index.html = 1603641347183
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\constant-values.html = 1603641347110
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\deprecated-list.html = 1603641347137
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\element-list = 1603641347079
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\help-doc.html = 1603641347193
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\index-all.html = 1603641347171
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\index.html = 1603641347187
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\jquery-ui.overrides.css = 1603641347256
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\member-search-index.js = 1603641347165
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\module-search-index.js = 1603641347156
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\options = 1603641345300
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\overview-tree.html = 1603641347131
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\package-search-index.js = 1603641347159
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\packages = 1603641345301
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\script.js = 1603641347201
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\search.js = 1603641347204
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\stylesheet.css = 1603641347197
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\tag-search-index.js = 1603641347167
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-rxjava\target\apidocs\type-search-index.js = 1603641347162

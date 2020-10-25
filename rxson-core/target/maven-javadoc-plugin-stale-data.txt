@@ -1,0 +1,26 @@
+cmd.exe
+/X
+/C
+"C:\Users\bouhanan\Documents\jdk-15\bin\javadoc.exe @options @packages"
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\allclasses-index.html = 1603641325550
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\allpackages-index.html = 1603641325555
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\constant-values.html = 1603641325379
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\deprecated-list.html = 1603641325491
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\element-list = 1603641325345
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\help-doc.html = 1603641325566
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\index-all.html = 1603641325542
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\index.html = 1603641325496
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\jquery-ui.overrides.css = 1603641325615
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\member-search-index.js = 1603641325537
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\module-search-index.js = 1603641325530
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\options = 1603641323449
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\overview-summary.html = 1603641325559
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\overview-tree.html = 1603641325485
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\package-search-index.js = 1603641325532
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\packages = 1603641323450
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\script.js = 1603641325573
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\search.js = 1603641325577
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\serialized-form.html = 1603641325388
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\stylesheet.css = 1603641325570
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\tag-search-index.js = 1603641325539
+C:\Users\bouhanan\IdeaProjects\rxson\rxson-core\target\apidocs\type-search-index.js = 1603641325534
