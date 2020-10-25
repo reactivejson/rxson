@@ -2,9 +2,9 @@ RxSON
 =====================
 **[Reactive](http://www.reactive-streams.org/) HTTP Client for Java and Android.**
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson)
-[![Javadoc](https://www.javadoc.io/badge/com.github.rxson/rxson.svg)](http://www.javadoc.io/doc/com.github.rxson/rxson)
-![](https://img.shields.io/github/license/rxson/rxson.svg)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson-core)
+[![Javadoc](https://www.javadoc.io/badge/com.github.rxson/rxson-core.svg)](http://www.javadoc.io/doc/com.github.rxson/rxson-core)
+![](https://img.shields.io/github/license/rxson/rxson-core.svg)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.github.rxson/rxson.svg)](https://oss.sonatype.org/content/repositories/snapshots/com/github/rxson/rxson/)
 
 **Reactive JSON: Java Reactive approach to JSON.**
