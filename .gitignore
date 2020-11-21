@@ -15,6 +15,7 @@ out/
 ######################
 /log/
 /target/
+target/
 
 ######################
 # Package Files
