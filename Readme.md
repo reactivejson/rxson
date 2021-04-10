@@ -4,7 +4,7 @@ RxSON
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rxson/rxson-core)
 [![Javadoc](https://www.javadoc.io/badge/com.github.rxson/rxson-core.svg)](http://www.javadoc.io/doc/com.github.rxson/rxson-core)
-![](https://img.shields.io/github/license/rxson/rxson-core.svg)
+![](https://img.shields.io/github/license/reactivejson/rxson.svg)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.github.rxson/rxson.svg)](https://oss.sonatype.org/content/repositories/snapshots/com/github/rxson/rxson/)
 
 **Reactive JSON: Java Reactive approach to JSON.**
@@ -185,4 +185,4 @@ More detailed examples are available in tests.
  
  ## Support
  
- If you need help, please reach out to me: [mohamed.bou_hanane@nokia.com](mohamed.bou_hanane@nokia.com)
+ If you need help, please reach out to me: [bouhanana@outlook.fr](bouhanana@outlook.fr)
